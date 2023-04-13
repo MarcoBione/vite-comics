@@ -1,1 +1,21 @@
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+._mylogo {
+    width: 100px;
+}
+
+._mynavlink {
+    cursor: pointer;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 1s;
+
+    &:hover {
+        color: blue;
+        border-bottom: 5px solid blue;
+    }
+}

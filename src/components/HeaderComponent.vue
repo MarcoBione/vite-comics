@@ -1,17 +1,18 @@
 <template>
     <header>
-
-        <!-- logo DC -->
-        <div class="logo">
-            <img src="../assets/vue-dc-comics-1/img/favicon.ico" alt="dc_logo">
-        </div>
         <!-- nav bar commands -->
-        <nav>
+        <nav class="d-flex container justify-content-between align-items-center py-4">
+            <!-- logo DC -->
+            <div>
+                <img class="_mylogo" src="../assets/vue-dc-comics-1/img/dc-logo.png" alt="dc_logo">
+            </div>
+
             <ul class="d-flex list-unstyled">
-                <li v-for="(item, index) in navBar" @key='index' class="_myitem">
-                    {{ item.name }}
+                <li v-for="(item, index) in navBar" @key='index' class="px-3 fw-semibold text-uppercase">
+                    <p class="_mynavlink">{{ item.name }}</p>
                 </li>
             </ul>
+
         </nav>
 
     </header>
