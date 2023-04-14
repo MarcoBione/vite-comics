@@ -1,7 +1,55 @@
 <template>
-    <div>
+    <footer>
 
-    </div>
+        <!-- footer top -->
+        <div class="bg-dark _myfooter p-3">
+            <div class="container d-flex justify-content-between">
+
+                <!-- links -->
+                <div class="links">
+
+                    <!-- title of the link list -->
+                    <ul class="fs-semibold text-white list-unstyled d-flex">
+
+                        <!-- cycle for title list rendering -->
+                        <li v-for="item, index in linksData" :key="index" class="px-3">
+
+                            <h4 class="fw-semibold">{{ item.category }}</h4> <!-- title rendering -->
+
+                            <!-- rendering for all links inside obj -->
+                            <ul v-for="link, index in item.links" :key="index" class="p-0">
+                                <li class="list-unstyled">
+                                    <p class=" _mypointer _mylinks m-0">{{ link.name }}</p>
+                                    <!-- rendering of all links inside 'categories' -->
+                                </li>
+                            </ul>
+                            <!-- end rendering for all links inside obj -->
+
+                        </li>
+                        <!-- end cycle for title list rendering -->
+
+                    </ul>
+                    <!-- end title of the link list -->
+
+                </div>
+                <!-- end links -->
+
+                <!-- logo -->
+                <div class="logo">
+                    <img class="_mybglogo" src="/dc-logo-bg.png" alt="dc-logo">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer bottom -->
+        <!--<div class="bg-dark">
+            <div class="container p-2">
+
+            </div>
+        </div> -->
+
+    </footer>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
         <nav class="d-flex container justify-content-between align-items-center py-4">
             <!-- logo DC -->
             <div>
-                <img class="_mylogo" src="../assets/vue-dc-comics-1/img/dc-logo.png" alt="dc_logo">
+                <img class="_mylogo" src="/dc-logo.png" alt="dc_logo">
             </div>
 
             <ul class="d-flex list-unstyled">

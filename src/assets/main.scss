@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --primary: #0D6EFD;
+}
+
 ._mylogo {
     width: 100px;
 }
@@ -26,4 +30,23 @@
 
 ._mypointer {
     cursor: pointer;
+}
+
+._mylinks {
+    color: white;
+    transition: color 0.5s;
+
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+._myfooter {
+    background-image: url('/footer-bg.jpg');
+    height: 350px;
+    overflow: hidden;
+}
+
+._mybglogo {
+    height: 450px;
 }
