@@ -43,11 +43,26 @@
         </div>
 
         <!-- footer bottom -->
-        <!--<div class="bg-dark">
-            <div class="container p-2">
+        <div class="bg-dark">
+            <div class="container p-2 d-flex justify-content-between">
+                <!-- button -->
+                <div class="d-flex align-items-center">
+                    <button class="_mybtn">Sign Up now</button>
+                </div>
 
+                <!-- socials -->
+                <div class="p-2">
+                    <ul class="d-flex list-unstyled m-0 align-items-center">
+                        <li class="px-1 text-uppercase text-primary fw-semibold">Follow us</li>
+                        <li class="px-1"><img src="/footer-facebook.png" alt="facebook-logo"></li>
+                        <li class="px-1"><img src="/footer-twitter.png" alt="twitter-logo"></li>
+                        <li class="px-1"><img src="/footer-youtube.png" alt="youtube-logo"></li>
+                        <li class="px-1"><img src="/footer-pinterest.png" alt="pinterest-logo"></li>
+                        <li class="px-1"><img src="/footer-periscope.png" alt="periscope-logo"></li>
+                    </ul>
+                </div>
             </div>
-        </div> -->
+        </div>
 
     </footer>
 </template>

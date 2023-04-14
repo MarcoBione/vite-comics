@@ -50,3 +50,18 @@
 ._mybglogo {
     height: 450px;
 }
+
+._mybtn {
+    border: 2px solid var(--primary);
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 9px;
+    border-radius: 10px;
+
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: var(--primary);
+    }
+}
