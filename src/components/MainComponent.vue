@@ -1,7 +1,12 @@
 <template>
     <main>
+        <div class="_myjumbo">
+            <div class="_mybox">
+                <p class="m-0 text-uppercase">Current series</p>
+            </div>
+        </div>
         <!-- first part -->
-        <div class="text-bg-dark p-3">
+        <div class="text-bg-dark p-5">
             <div class="container">
                 <!-- rows -->
                 <div class="row">
